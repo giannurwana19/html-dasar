@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>table</title>
+  <style>
+    .table {
+      margin-bottom: 2em;
+    }
+
+    .table-flex {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="table">
+    <table border="1">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Nama</th>
+          <th>Alamat</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Gian Nurwana</td>
+          <td>Tangerang</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Lukman Hafiz</td>
+          <td>Jakarta</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="table-flex">
+    <div class="table">
+      <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Alamat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Gian Nurwana</td>
+            <td>Tangerang</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Lukman Hafiz</td>
+            <td>Jakarta</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Muhammad Fajri</td>
+            <td>Jawa Timur</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Putri Adisa</td>
+            <td>Jakarta</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Risa Andini</td>
+            <td>Bandung</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Jumlah</td>
+            <td>5</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+    <div class="table">
+      <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Alamat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="5">Nomor Urut</td>
+            <td>Gian Nurwana</td>
+            <td>Tangerang</td>
+          </tr>
+          <tr>
+            <td>Lukman Hafiz</td>
+            <td>Jakarta</td>
+          </tr>
+          <tr>
+            <td>Muhammad Fajri</td>
+            <td>Jawa Timur</td>
+          </tr>
+          <tr>
+            <td>Putri Adisa</td>
+            <td>Jakarta</td>
+          </tr>
+          <tr>
+            <td>Risa Andini</td>
+            <td>Bandung</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="2">Jumlah</td>
+            <td>5</td>
+          </tr>
+        </tfoot>
+      </table>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
